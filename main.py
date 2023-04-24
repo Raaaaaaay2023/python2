@@ -17,8 +17,13 @@
 #     print("no solution")
 
 #3
-n=int(input("Please enter a number n "))
-power = 1
-while power <= n:
-    print(power)
-    power *= 2
+# n=int(input("Please enter a number n "))
+# power = 1
+# while power <= n:
+#     print(power)
+#     power *= 2
+n = int(input())
+i = 0
+while 2 ** i <= n:
+    print(2 ** i)
+    i += 1
